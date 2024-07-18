@@ -1,0 +1,134 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    background-image: url('https://img.freepik.com/free-vector/data-protection-concept_1284-10819.jpg?w=740&t=st=1693405059~exp=1693405659~hmac=c9db9acd7512e2a00d52bca39e96333205b05ebf20870b7bea0bc1fd7e95ca2e');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header {
+    background-color: #1f2933;
+    color: #ffffff;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+nav {
+    background-color: #15202b;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    border-bottom: 3px solid #66c2e0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    margin-right: 1.5rem;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+nav li:hover {
+    color: #66c2e0;
+}
+
+nav li.active {
+    font-weight: bold;
+    color: #66c2e0;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-section {
+    display: none;
+    margin-bottom: 2rem;
+}
+
+.dashboard-section:first-child {
+    display: block;
+}
+
+.dashboard-content {
+    margin-top: 30px;
+    text-align: center;
+}
+
+h2 {
+    color: #1f2933;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+ul.log-list, ul.device-list, ul.alert-list {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #555;
+}
+
+form {
+    margin-top: 20px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: #1f2933;
+}
+
+input[type="text"], input[type="password"] {
+    padding: 12px;
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button[type="submit"] {
+    background-color: #66c2e0;
+    color: #ffffff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #468faf;
+}
+
+footer {
+    text-align: center;
+    padding: 1.5rem 0;
+    background-color: #1f2933;
+    color: #ffffff;
+    font-size: 1rem;
+}
